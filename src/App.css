@@ -3,3 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.input__address--container {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.input__address {
+    width: 25%;
+    margin: 12px 18px;
+    height: 24px;
+    border-radius: 6px;
+}
+
+.input__latlng--container {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.input__latlng {
+    width: 25%;
+    margin: 12px 18px;
+    height: 24px;
+    border-radius: 6px;
+}
+
+.map__container {
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    width: 60vw;
+    margin: 0 auto;
+}
